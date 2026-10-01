@@ -10,8 +10,8 @@ cask "configr" do
   # whole-file replace, so prose that quotes one gets rewritten into nonsense,
   # and its presence check would be satisfied by the prose instead of by the
   # stanza it is meant to be guarding.
-  version "0.2.4"
-  sha256 "19deafb093109e18fef5fde5c0d399994b598530c4c4969f6bbcf4422b5a49ae"
+  version "0.2.5"
+  sha256 "7970cbfb3b63b8bf76e7526da7486bd27904f29a30a4ce6715a7ea17f4ca51a6"
 
   url "https://github.com/danieldeusing/configr-releases/releases/download/v#{version}/Configr_#{version}_universal.dmg"
   name "Configr"
